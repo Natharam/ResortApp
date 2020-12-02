@@ -72,7 +72,7 @@ h6 {
 .loading {
   text-transform: capitalize;
   text-align: center;
-  margin-top: 3rem;
+  padding: 2rem 0;
 }
 .error {
   text-align: center;
@@ -111,6 +111,10 @@ h6 {
   font-size: 1.5rem;
   color: var(--primaryColor);
 }
+.logo {
+  height: 36px;
+  width: auto;
+}
 .nav-links {
   height: 0;
   overflow: hidden;
@@ -131,7 +135,6 @@ h6 {
 .nav-links a:hover {
   color: var(--primaryColor);
 }
-
 .show-nav {
   height: 100px;
 }
@@ -311,6 +314,7 @@ h6 {
 }
 .img-container img {
   width: 100%;
+  height: 180px;
   display: block;
   transition: var(--mainTransition);
 }
@@ -436,8 +440,16 @@ h6 {
 }
 /* end of single room*/
 /* roomlist */
+.empty-list {
+  padding-bottom: 1rem;
+}
+
+.empty-list h3 {
+  text-align: center;
+}
+
 .roomslist {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .roomslist-center {
   width: 80vw;
@@ -462,7 +474,7 @@ h6 {
 /* end of roomlist */
 /*  rooms fitler*/
 .filter-container {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 .filter-form {
   width: 60vw;

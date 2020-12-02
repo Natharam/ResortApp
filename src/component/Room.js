@@ -14,7 +14,7 @@ const Room = ({ room }) => {
       {room && (
         <>
           <div className="img-container">
-            <img src={room.images[0] || defaultImg} alt="single room" />
+            <img src={room.images[0] || defaultImg} alt="single room" className="images" />
             <div className="price-top">
               <h6>${room.price}</h6>
               <p>per night</p>
